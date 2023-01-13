@@ -1,0 +1,38 @@
+.client-page-main-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 100vh;
+  background-color: #d9d9d9;
+  overflow: hidden;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: 4px 4px 4px #000;
+}
+
+.only-clients {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 950px) {
+  .clients-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+  }
+}

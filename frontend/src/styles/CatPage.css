@@ -1,0 +1,35 @@
+.cat-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px #000;
+  text-align: center;
+}
+
+.cat-container img {
+  width: 540px;
+  height: 400px;
+}
+
+.cat-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.cat-header {
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 620px) {
+  .cat-container img {
+    width: 320px;
+    height: 260px;
+  }
+}

@@ -1,0 +1,22 @@
+.client-component-main-container {
+  background-color: #ffff;
+  box-shadow: 2px 2px 2px gray;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 7px;
+  width: 300px;
+  overflow: auto;
+}
+
+.name-trash-container, .pen-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.images {
+  cursor: pointer;
+  width: 30px;
+}

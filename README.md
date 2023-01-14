@@ -17,3 +17,7 @@ Repositório destinado aos interessados em participar do processo seletivo da SH
   (Este comando irá subir os containeres do `frontend`, `backend` e o `mongodb`, também irá usar as portas '`3000`, `3001` e `27017`' certifique-se de que nenhuma delas está em uso)
 
 6. Em seu navegador, já pode acessar a rota `localhost:3000`.
+
+### Link do vídeo de explicação
+
+`https://www.youtube.com/watch?v=iVT0pIEpJvU`
